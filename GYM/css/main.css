@@ -1,0 +1,250 @@
+.clear{
+    clear: both;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    #home{
+    height: 800px;
+    background-image: url(../img/background-of-gym-with-big-window-vector.jpg);
+    background-size: 100% 100%;
+}
+.overlay{
+    height: 800px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+background-color: rgba(0,0,0,0.9);
+height: 60px;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 9999;
+}
+.navbar .logo{
+    width: 50%;
+    float: left;
+}
+.navbar .logo h2{
+    color: #778E84;
+    padding-left: 29px;
+      
+}
+.navbar .links{
+    width: 50%;
+    float: right;
+}
+.navbar .links a{
+    text-decoration: none;
+     color: white;
+}
+.navbar .links ul{
+    list-style-type: none;
+}
+.navbar .links li{
+    float: left;
+    margin:  0 25px;
+    font-size: 22px;
+   
+}
+#home .caption{
+    color: white;
+    text-align: center;
+}
+#home .caption p{
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 300px;
+    
+}
+#home .caption .h{
+    text-transform: uppercase;
+}
+#about{
+    height: 700px;
+    margin-top: 40px;
+    width: 100%;
+}
+#about .container{
+    width: 80%;       
+    height: 700px;
+    margin: auto;
+}
+#about .us{
+    text-align: center;
+
+}
+#about .img-about{
+    width: 50%;
+    height: 700px;
+    float: right;
+}
+#about .img-about img{
+    width: 480px;
+    height: 650px;
+    margin: 10px 30px;
+   padding: 33px;
+}
+#about .info-about{
+    width: 50%;
+    height: 700px;
+    float: left;
+
+}
+#about .info-about p{
+    font-size: 20px;
+    padding: 35px;
+    margin: 25px 30px; 
+    
+}
+
+#product{
+    padding-top: 25px; 
+       
+}
+#product .our{
+   text-align: center;
+    color:black;
+    font-size: 25px;
+    padding: 20px;
+}
+#product .im{
+    float: left;
+    margin-left:10px;  
+}
+#product .im img{
+    width: 355px;
+    height: 355px;
+    border: solid 3px black;
+    margin-bottom: 15px;
+    
+}
+
+.sport{
+    text-align: center;
+    color: #778E84;
+    margin: 25px 30px;
+    padding-top: 10px;
+
+
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+}
+
+.card-text2{
+    text-decoration: line-through;
+}
+
+#btn8,#btn7,#btn9,#btn10{
+    padding: 8px 15px;
+    border: 2px solid;
+    transition: all;
+}
+#btn8:hover,#btn7:hover,#btn9:hover,#btn10:hover{
+    background-color: #15485D;
+}
+.btn-8{
+    padding: 8px 15px;
+    border: 2px solid;
+    transition: all;
+}
+.btn-8:hover{
+    background-color: #15485D;
+}
+
+
+#contact{
+
+    height: 480px;
+}
+#contact h4{
+    padding: 28px;
+    font-size: 40px;
+    text-align: center;
+}
+.brd1{
+    width: 90px;
+    height: 1px;
+    background-color: black;
+    margin:7px  auto;
+}
+.brd2{
+    width: 220px;
+    height: 1px;
+    background-color: black;
+    margin: 5px auto;
+}
+.brd3{
+    width: 90px;
+    height: 1px;
+    background-color:black;
+    margin: auto;
+}
+.login{
+    width: 70%;
+    height: 400px;
+    background-color: #fff;
+    text-align: center;
+    margin: 20px auto;
+}
+.log-name input{
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+.log-subject input{
+    width: 800px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    margin-top: 10px;
+}
+.log-message input{
+    width: 800px;
+    height: 80px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    margin-top: 10px;
+}
+.button{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.button .but{
+    background-color: #778E84;
+    color: #ffffff;
+    padding: 18px 13px;
+    border-radius: 10px;
+    border: none;
+}
+#footer{
+    height: 160px;
+    background-color:#778E84;
+}
+#footer .container2{
+    height: 150px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    font-size: 17px;
+}
+
+i{
+    font-size: 29px;
+    padding: 5px;
+}
